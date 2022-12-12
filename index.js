@@ -19,6 +19,7 @@ const DB = process.env.DB_URL.replace(
   process.env.DB_PASSWORD
 );
 mongoose.connect(DB); // connect to our database
+mongoose.set('strictQuery', false);
 
 app.use(cors({
   origin: '*',
