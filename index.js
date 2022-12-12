@@ -27,7 +27,7 @@ app.use(cors({
 }));
 
 router.get('/', function(req, res) {
-  res.json({ message: 'Check it out: https://github.com/anhminh10a2hoa/test-vamk-api' });
+  res.json({ message: 'Check my github: github.com/anhminh10a2hoa' });
 });
 
 router.route('/orders')
